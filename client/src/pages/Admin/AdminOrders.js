@@ -6,7 +6,7 @@ import Layout from "../../components/Layout/Layout";
 import { useAuth } from "../../context/auth";
 import moment from "moment";
 import { Select } from "antd";
-import { BASE_URL } from "../../../backendUrl";
+import { BASE_URL } from "../../backendUrl";
 const { Option } = Select;
 
 const AdminOrders = () => {

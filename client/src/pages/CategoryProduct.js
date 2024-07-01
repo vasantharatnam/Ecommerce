@@ -3,7 +3,7 @@ import Layout from "../components/Layout/Layout";
 import { useParams, useNavigate } from "react-router-dom";
 import "../styles/CategoryProductStyles.css";
 import axios from "axios";
-import { BASE_URL } from "../../backendUrl";
+import { BASE_URL } from "../backendUrl";
 
 const CategoryProduct = () => {
   const params = useParams();

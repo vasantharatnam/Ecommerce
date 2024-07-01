@@ -4,7 +4,7 @@ import Layout from "./../../components/Layout/Layout";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { Link } from "react-router-dom";
-import { BASE_URL } from "../../../backendUrl";
+import { BASE_URL } from "../../backendUrl";
 
 const Products = () => {
   const [products, setProducts] = useState([]);

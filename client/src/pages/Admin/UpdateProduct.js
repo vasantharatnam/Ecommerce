@@ -5,7 +5,7 @@ import toast from "react-hot-toast";
 import axios from "axios";
 import { Select } from "antd";
 import { useNavigate, useParams } from "react-router-dom";
-import { BASE_URL } from "../../../backendUrl";
+import { BASE_URL } from "../../backendUrl";
 const { Option } = Select;
 
 const UpdateProduct = () => {

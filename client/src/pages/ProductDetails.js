@@ -5,7 +5,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 import { useParams, useNavigate } from "react-router-dom";
 import "../styles/ProductDetailsStyles.css";
-import { BASE_URL } from "../../backendUrl";
+import { BASE_URL } from "../backendUrl";
 
 const ProductDetails = () => {
   const params = useParams();

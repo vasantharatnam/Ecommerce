@@ -4,7 +4,7 @@ import Layout from "./../components/Layout/Layout";
 import { useCart } from "../context/cart";
 import toast from "react-hot-toast";
 import { useSearch } from "../context/search";
-import { BASE_URL } from "../../backendUrl";
+import { BASE_URL } from "../backendUrl";
 const Search = () => {
   const [values, setValues] = useSearch();
   const [cart, setCart] = useCart();

@@ -8,7 +8,7 @@ import { AiFillWarning } from "react-icons/ai";
 import axios from "axios";
 import toast from "react-hot-toast";
 import "../styles/CartStyles.css";
-import { BASE_URL } from "../../backendUrl";
+import { BASE_URL } from "../backendUrl";
 
 const CartPage = () => {
   const [auth, setAuth] = useAuth();

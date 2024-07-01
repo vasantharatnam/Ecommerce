@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
-import { BASE_URL } from "../../backendUrl";
+import { BASE_URL } from "../backendUrl";
 
 export default function useCategory() {
   const [categories, setCategories] = useState([]);

@@ -4,7 +4,7 @@ import Layout from "./../../components/Layout/Layout";
 import axios from "axios";
 import { useAuth } from "../../context/auth";
 import moment from "moment";
-import { BASE_URL } from "../../../backendUrl";
+import { BASE_URL } from "../../backendUrl";
 
 const Orders = () => {
   const [orders, setOrders] = useState([]);
